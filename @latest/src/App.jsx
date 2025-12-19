@@ -9,11 +9,11 @@ import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound'
 
 
-
+const rebo_name='1-st-react'
 
 let route=createBrowserRouter([
   {path:'' , element:<Layout/> , children:[
-  {index:true,element:<About/>},
+  {index:true,element:1-st-react},
   {path:'about',element:<About/>},
   {path:'portfolio',element:<Portfolio/>},
   {path:'contact',element:<Contact/>},
@@ -22,7 +22,10 @@ let route=createBrowserRouter([
 
   ]},
   
-])
+],{
+  basename:`/${rebo_name}`
+}
+)
 function App() {
   return <>
 
