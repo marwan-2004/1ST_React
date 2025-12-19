@@ -1,0 +1,5 @@
+@import "tailwindcss";
+NavLink{
+    list-style: none !important;
+    text-decoration: none !important;
+}
