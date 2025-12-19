@@ -7,7 +7,7 @@ import Contact from './components/Contact/Contact'
 import NotFound from './components/NotFound/NotFound'
 
 
-const REPO_NAME = '1ST_React'  
+const REPO_NAME = '1-st-react'  
 
 const router = createBrowserRouter(
   [
