@@ -13,7 +13,7 @@ import NotFound from './components/NotFound/NotFound'
 
 let route=createBrowserRouter([
   {path:'' , element:<Layout/> , children:[
-  {path:'1-st-react',element:<About/>},
+  {path:'1ST_React',element:<About/>},
   {path:'about',element:<About/>},
   {path:'portfolio',element:<Portfolio/>},
   {path:'contact',element:<Contact/>},
